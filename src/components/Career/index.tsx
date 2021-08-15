@@ -26,7 +26,7 @@ export const CareerCard = () =>{
         <>
       
             {works.map(experience=>(
-                <section className="CareerCard">    
+                <section id= "CareerCard" className="CareerCard">    
                     <div  className="CareerHeader">
                             <h1>EXPERIÊNCIAS</h1>
                     </div>

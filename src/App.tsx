@@ -1,5 +1,8 @@
 import React from 'react';
 
+/* import {changeArrowTheme} from './components/Arrow/theme'
+ */
+
 import { CareerCard,
   Arrow, 
   TechnologiesCard, 
@@ -20,6 +23,7 @@ function App() {
       <TechnologiesCard/>
       <CareerCard/>
       <Fotter/>
+     {/*  {changeArrowTheme()} */}
     </div>
   );
 }

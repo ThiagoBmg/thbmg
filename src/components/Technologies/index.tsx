@@ -5,7 +5,7 @@ import {technologies} from './technologies'
 
 export const TechnologiesCard = () =>{
     return(
-        <section className="Tech">
+        <section id="TechCard" className="Tech">
             <div className="TechHeader">
                 <h1>CONHECIMENTOS</h1>
             </div>

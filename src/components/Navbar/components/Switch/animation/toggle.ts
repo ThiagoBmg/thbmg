@@ -1,7 +1,8 @@
-export const switchColorhandler = (event:any)=>{
+function buttonAnimation(){
     let toggle  = document.getElementById("Toggle"),
-        toggleImage = document.getElementById("ToggleImage"),
-        switchContext = document.getElementById("SwitchColorContext")
+    toggleImage = document.getElementById("ToggleImage"),
+    switchContext = document.getElementById("SwitchColorContext")
+
     /*  */
     function getMoon ():void{
         toggle!.style.transform = "translateX(35.5px)"
@@ -20,4 +21,8 @@ export const switchColorhandler = (event:any)=>{
     if(!toggle?.style.transform) return getSun()
     if(toggle?.style.transform == 'translateX(-1px)') return getMoon()
     if(toggle?.style.transform == 'translateX(35.5px)')  return getSun()
+}
+
+export const switchColorhandler = (event:any)=>{
+    buttonAnimation()
 }

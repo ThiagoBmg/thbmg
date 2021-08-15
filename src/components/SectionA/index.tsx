@@ -1,8 +1,10 @@
 import './style.css'
 
+
 export const Section = () =>{
+
     return(
-        <section className="Section">
+        <section id="SectionA"  className="Section">
            
             <div className="SectionA">
                 <h1>Olá, <br/>eu sou o Thiago!</h1>
@@ -11,7 +13,7 @@ export const Section = () =>{
                     <span>Ciência da Computação</span>
                     <span>Trabalhando na Pixeon</span>
                 </div>
-                <p>Descubra um pouco mais sobre minha história, e como venho evoluindo minhas habilidades nos ultimos tempos</p>
+                <p id="sectionAText">Descubra um pouco mais sobre minha história, e como venho evoluindo minhas habilidades nos ultimos tempos</p>
 
                 <a href="#Home"><button className="HomeButton">Saber Mais</button></a>
             </div>
