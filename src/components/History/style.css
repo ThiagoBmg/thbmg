@@ -1,0 +1,78 @@
+
+.HistorySections{
+    width: 95vw;
+    height: auto;
+
+
+    background: linear-gradient(4deg, #012840, #175973, #2999a6);
+    background-size: 600% 600%;
+   
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 50px 0px;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+
+.HistoryCard{
+    width: auto;
+    max-width: 300px;
+    height: 150px;
+    margin: 30px 20px;
+/*     background: chartreuse; */
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Montserrat', sans-serif;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.HistoryCard img {
+    width: 65px;
+
+    margin: 30px 0px;
+}
+
+.HistoryCard h1{
+    color: #D0F2F2;
+    font-size: 18pt;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-align: center;
+}

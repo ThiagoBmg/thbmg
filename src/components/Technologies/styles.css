@@ -1,0 +1,151 @@
+/* aplicando transition uma unica vez nos componentes que são dinâmicos */
+
+.TechCard, .TechName, .TechExperience, .TechLevel, .TechImage, .TechPlus{ 
+    transition: .5s ease-in-out;
+}
+
+.Tech{
+    width: 95vw;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    flex-wrap:wrap;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    padding: 80px 0px;
+    border-radius: 12px;
+    margin-bottom: 100px;
+    /* background: yellow; */
+}
+.TechHeader{
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Open Sans', sans-serif;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px 60px;
+    margin-bottom: 60px;
+}
+
+.TechHeader h1{
+    font-size: 26pt;
+    font-weight: 400;
+    color: teal;
+}
+
+
+.TechCard{
+    width: 305px;
+    min-width: 305px;
+
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 25px;
+    margin: 20px;
+    
+    cursor: pointer;
+}
+
+.TechCard:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color:#012840e8;
+}
+
+.TechCard:hover .TechName{
+    letter-spacing: .02em;    
+    margin-left: 2px;
+    color: whitesmoke;
+}
+
+.TechCard:hover .TechExperience{
+    color: rgb(163, 163, 163);
+}
+
+.TechCard:hover .TechLevel{
+    color: rgb(245, 245, 245);
+}
+
+/*  imagem do cartão */
+.TechImage{
+    width: 96px;
+    height: 96px;
+}
+.TechCard:hover .TechImage{
+    margin-left: 3px;
+}
+
+/*  Titulo do cartão / nome da tecnologia */
+.TechName{
+    font-size: 24pt;
+    font-weight: 500;
+    color: #012840;
+}
+
+/* Breve descrição sobre o uso da tecnologia */
+.TechExperience{
+    font-size: 12pt;
+    margin: 20px 0px;
+    color: grey;
+    opacity: 0.7;
+    letter-spacing: 0.06em;
+    line-height: 1.5;
+}
+
+.TechCard:hover .TechExperience{
+    opacity: 1;
+}
+
+
+.TechCardFotter{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* nível de skill tecnica com a tecnologia */
+.TechLevel{
+    color: #175973;
+    animation: ma 2s infinite ease-in-out forwards;    
+    font-weight: bold;
+ 
+}
+
+.TechPlus{
+    color: rgb(92, 32, 52);
+    text-decoration: none;
+    opacity: .1;
+    
+}
+
+.TechCard:hover .TechPlus{
+    opacity: 1;
+    font-weight: bold;
+    color: #7ED9D9;
+}
+
+
+@keyframes ma{
+    0%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.7;
+    }
+}

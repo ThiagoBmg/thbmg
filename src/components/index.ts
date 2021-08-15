@@ -1,0 +1,7 @@
+//export * from './About'
+export * from './Career'
+export * from './Technologies'
+export * from './SectionA'
+export * from './History'
+export * from './Navbar'
+export * from './SectionB'

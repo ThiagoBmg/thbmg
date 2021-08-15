@@ -1,0 +1,39 @@
+.Toggle, .SwitchColorContext{
+    transition: all 0.5s ease-in-out;
+}
+
+.Toggle{
+    width: 35px;
+    height: 35px;
+    background: #012840;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translateX(35px); */
+    transform: translateX(35.5px);
+}
+
+/*  */
+.Toggle img{
+    width: 26px;
+    height: 26px;
+}
+
+
+.SwitchColorContext{
+    width: 70px;
+    min-width: 70px;
+    height: 35px;
+    
+    background: #55ACAC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+    margin-right: 5px;
+
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/* redenindo temporariamente o html */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 241, 246);
+    user-select: none;
+}
+
+.App{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+/* 
+https://color.adobe.com/pt/explore?page=2
+#
+#175973
+#2999A6
+#7ED9D9
+#D0F2F2
+*/
+
+.arrowSpacer{
+    width: 95vw;
+    height: 100px;
+    /* background: chocolate; */
+    margin: 10px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.arrowSpacer img{
+    width: 30px;
+    height: 30px;
+    animation: arrow 1.5s cubic-bezier(0.6, 0.04, 0.98, 0.335) infinite;
+}
+
+@keyframes arrow{
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
