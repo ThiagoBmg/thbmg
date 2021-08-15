@@ -5,7 +5,7 @@ import {technologies} from './technologies'
 
 export const TechnologiesCard = () =>{
     return(
-        <div className="Tech">
+        <section className="Tech">
             <div className="TechHeader">
                 <h1>CONHECIMENTOS</h1>
             </div>
@@ -22,7 +22,7 @@ export const TechnologiesCard = () =>{
                 
                 </div>
             ))}
-        </div>
+        </section>
     )
 }
 

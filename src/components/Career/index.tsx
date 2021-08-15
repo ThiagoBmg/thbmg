@@ -26,7 +26,7 @@ export const CareerCard = () =>{
         <>
       
             {works.map(experience=>(
-                <div className="CareerCard">    
+                <section className="CareerCard">    
                     <div  className="CareerHeader">
                             <h1>EXPERIÊNCIAS</h1>
                     </div>
@@ -39,7 +39,7 @@ export const CareerCard = () =>{
                         <img className="CareerPlusImage" src="https://img.icons8.com/pastel-glyph/128/000000/plus--v1.png"/>
                         <span className="CareerSaibaMais">SAIBA MAIS</span>
                     </a>
-                </div>
+                </section>
             ))}
         </>
     )

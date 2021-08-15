@@ -1,6 +1,57 @@
 .Fotter{
     width: 95vw;
-    height: 500px;
-    background-color: rgb(255, 255, 255);
+    height: auto;
+    min-height: 500px;
+  /*   background-color: rgb(255, 255, 255); */
     border-radius: 12px 12px 0px 0px;
+    border: solid 2px #7ED9D9;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+}
+
+.FSA{
+  width: 100%;
+  height: 70%;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FSB{
+  width: 100%;
+  height: 30%;
+/*   background-color: rgb(15, 136, 136); */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FSB span{
+  color: #175973;
+  font-size: 12pt;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+
+.FSB h5{
+  color: #2999A6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10pt;
+}
+
+.SA1, .SA2{
+  width: 40%;
+  min-width: 200px;
+  height: 100%;
+  background-color: rgb(24, 75, 58);
 }

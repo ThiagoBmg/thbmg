@@ -33,28 +33,3 @@ https://color.adobe.com/pt/explore?page=2
 #D0F2F2
 */
 
-.arrowSpacer{
-    width: 95vw;
-    height: 100px;
-    /* background: chocolate; */
-    margin: 10px 0px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
-}
-
-.arrowSpacer img{
-    width: 30px;
-    height: 30px;
-    animation: arrow 1.5s cubic-bezier(0.6, 0.04, 0.98, 0.335) infinite;
-}
-
-@keyframes arrow{
-    0%{
-        transform: translateY(-20px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
