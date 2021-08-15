@@ -24,11 +24,14 @@ export const CareerCard = () =>{
 
     return(
         <>
+      
             {works.map(experience=>(
                 <div className="CareerCard">    
+                    <div  className="CareerHeader">
+                            <h1>EXPERIÊNCIAS</h1>
+                    </div>
                     <div className="CareerContext"> 
-                      {/*   <img className="CareerImage" src={experience.image} alt="img" /> */}
-                       
+                        
                         <video src="https://brandbook.pixeon.com/wp-content/uploads/2020/04/Pixeon_Fundo_Branco.mp4"  className="CareerImage" autoPlay playsInline loop muted ></video>
                         {experience.history.map(currentExperience=>setCareerData(currentExperience))}
                     </div>

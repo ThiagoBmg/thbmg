@@ -13,7 +13,7 @@ export const Section = () =>{
                 </div>
                 <p>Descubra um pouco mais sobre minha história, e como venho evoluindo minhas habilidades nos ultimos tempos</p>
 
-                <a href="#"><button className="HomeButton">Saber Mais</button></a>
+                <a href="#Home"><button className="HomeButton">Saber Mais</button></a>
             </div>
             <div className="SectionB">
                <img className="ProfilePhoto" src="./images/eu.svg" alt="ss"/> 
