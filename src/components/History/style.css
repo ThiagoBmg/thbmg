@@ -19,7 +19,7 @@
     display: flex;
     flex-wrap: wrap;
 
-    padding: 50px 0px;
+    padding: 5px 0px;
 
     align-items: center;
     justify-content: space-evenly;
@@ -51,11 +51,10 @@
 }
 
 .HistoryCard{
-    width: auto;
-    max-width: 300px;
+    width: 300px;
     height: 150px;
     margin: 30px 20px;
-/*     background: chartreuse; */
+   /*  background: chartreuse; */
     display: flex;
     flex-direction: column;
 
@@ -68,12 +67,12 @@
 .HistoryCard img {
     width: 65px;
 
-    margin: 30px 0px;
+    margin: 15px 0px;
 }
 
 .HistoryCard h1{
     color: #D0F2F2;
-    font-size: 18pt;
+    font-size: 14pt;
     font-weight: 300;
     letter-spacing: 0.1em;
     text-align: center;

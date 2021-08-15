@@ -1,6 +1,13 @@
 import React from 'react';
 
-import { CareerCard, Arrow, TechnologiesCard,  Section, SectionB , Navbar, History , Fotter} from './components'
+import { CareerCard,
+  Arrow, 
+  TechnologiesCard, 
+  Section, 
+  SectionB, 
+  Navbar, 
+  History, 
+  Fotter} from './components'
 
 function App() {
   return (
@@ -9,12 +16,9 @@ function App() {
       <Section/>
       <Arrow/>
       <History/>
-    {/*   <SectionB/> */}
       <SectionB/>
       <TechnologiesCard/>
-
       <CareerCard/>
-
       <Fotter/>
     </div>
   );
