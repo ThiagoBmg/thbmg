@@ -20,7 +20,7 @@ export const technologies : Itechnologies[]= [{
     experience: 'Em um desafio, precisei desenvolver uma automação que válidava determinado cenário de um sistema utilizando Selenium (automação em navegadores) e Python.',
     url: 'https://img.icons8.com/color/96/000000/python--v1.png',
     level: 'intermediário'
-},{
+}/* ,{
     name: 'Power Apps',
     experience: 'Administrando o sistema Dynamics365, estou apto à realizar ajustes complexos em fluxos no Power Apps.',
     url: 'https://img.icons8.com/fluency/96/000000/microsoft-power-automate-2020.png',
@@ -50,5 +50,5 @@ export const technologies : Itechnologies[]= [{
     experience: 'Aplicações já desenvolvidas e orquestradas através de containers',
     url: 'https://img.icons8.com/color/96/000000/git.png',
     level: 'intermediário'
-}]
+} */]
     

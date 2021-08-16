@@ -1,16 +1,16 @@
 .Fotter{
-    width: 95vw;
+    width: 98vw;
     height: auto;
-    min-height: 500px;
-  /*   background-color: rgb(255, 255, 255); */
-    border-radius: 12px 12px 0px 0px;
+    min-height: 300px;
+    /*   background-color: rgb(255, 255, 255); */
+    /* border-radius: 12px 12px 0px 0px; */
     border: solid 2px #7ED9D9;
 
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+    z-index: 0;
     overflow: hidden;
 }
 

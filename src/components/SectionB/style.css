@@ -1,39 +1,42 @@
 .SectionBContainer{
-    width: 95vw;
+    width: 100vw;
     height: auto;
    
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     
-    margin: 60px 0px;
-    border-radius: 12px;
-    
+  /*   margin: 60px 0px;
+    border-radius: 12px; */
     overflow: hidden;
     
     background: rgb(23,89,115);
-    background: linear-gradient(171deg, rgba(23,89,115,1) 0%, rgba(35,130,148,1) 51%, rgba(126,217,217,1) 100%);    background-attachment: fixed;
+    background: linear-gradient(171deg, rgba(23,89,115,1) 0%, rgba(35,130,148,1) 51%, rgba(126,217,217,1) 100%);   
+    background-attachment: fixed;
 
     display: flex;
     flex-wrap: wrap;
 
     align-items: center;
     justify-content: center;
+
+    z-index: 1;
 }
 
 .SecBA{
     width: 50%;
-    height: 400px;
+    height: 500px;
     min-width: 500px;
     background: url("https://media-exp1.licdn.com/dms/image/C4E2DAQETjzTwYrZneA/profile-treasury-image-shrink_8192_8192/0/1619449394943?e=1629079200&v=beta&t=4aAgrPX-2FPWJXXu-vY9bmSRsToordDAdg7Yy_Ha7UQ");
     background-size: cover;
 /*     background-attachment: fixed; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 
     background-repeat: no-repeat;
-    border-radius: 0px 25px 25px 0px;
+    border-radius: 0px 12px 12px 0px;
 }
 
 .SecBB{
     width: 50%;
-    height: 400px;
+    height: 500px;
     min-width: 500px;
   
     display: flex;
@@ -69,11 +72,12 @@
 
 .SecBB span{
     font-size: 14pt;
-    width: 400px;
+    width: 300px;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    letter-spacing: -1px;
+
+    letter-spacing: 0.3px;
     text-align: center;
 
     margin-bottom: 20px;
@@ -95,8 +99,8 @@
 
 .SectionBButton{
     width: 150px;
-    height: 50px;
-    border-radius: 10px;
+    height: 70px;
+    border-radius: 8px;
     background: #175973;
     border: none;
     color: #D0F2F2;

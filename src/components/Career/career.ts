@@ -23,7 +23,7 @@ export const works  = [
         \nCriação de consultas em Sql.
         \nMigração de dados entre sistemas.
         \nMapeamento de processos e aplicação de melhorias.`
-    },{
+    }/* ,{
         activity: 'Assistente de Eficiência Operacional',
         startDate: 'nov. de 2019',
         endDate: 'nov. de 2020',
@@ -35,7 +35,7 @@ export const works  = [
         \nDesenvolvimento web.
         \nCriação de consultas em Sql.
         \nMapeamento de processos e aplicação de melhorias.`
-    }]
+    } */]
 }/* ,{
     company: 'FEI' 
     ,image: '',

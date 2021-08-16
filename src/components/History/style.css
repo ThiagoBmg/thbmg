@@ -1,6 +1,6 @@
 
 .HistorySections{
-    width: 95vw;
+    width: 100vw;
     height: auto;
 
     background: linear-gradient(4deg, #012840, #175973, #2999a6);
@@ -15,15 +15,14 @@
     display: flex;
     flex-wrap: wrap;
 
-    padding: 5px 0px;
+    padding: 20px 0px;
 
     align-items: center;
     justify-content: space-evenly;
 
     overflow: hidden;
-    border-radius: 12px;
-    
-    margin: 60px 0px;
+
+    z-index: 1;
 }
 
 @-webkit-keyframes AnimationName {
@@ -69,8 +68,8 @@
 
 .HistoryCard h1{
     color: #D0F2F2;
-    font-size: 14pt;
-    font-weight: 300;
-    letter-spacing: 0.1em;
+    font-size: 12pt;
+    font-weight: 600;
+    letter-spacing:0em;
     text-align: center;
 }

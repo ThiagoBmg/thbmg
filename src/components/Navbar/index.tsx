@@ -6,8 +6,8 @@ export const Navbar = () => {
          <div className="Nav">
              <div className="NavSection">
                  <Switch/>
-                 <img className="FlagImage" src="./images/brFlag.svg" alt="leng img" />
-                 <img className="FlagImage" src="./images/usaFlag.svg" alt="leng img" /> 
+           {/*       <img className="FlagImage" src="./images/brFlag.svg" alt="leng img" />
+                 <img className="FlagImage" src="./images/usaFlag.svg" alt="leng img" />  */}
              </div>
          </div>
     )
