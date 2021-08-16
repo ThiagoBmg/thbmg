@@ -2,7 +2,6 @@
     width: 95vw;
     height: auto;
    
- 
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     
     margin-bottom: 80px;
@@ -10,7 +9,6 @@
     
     overflow: hidden;
     
-
     background: rgb(23,89,115);
     background: linear-gradient(171deg, rgba(23,89,115,1) 0%, rgba(35,130,148,1) 51%, rgba(126,217,217,1) 100%);    background-attachment: fixed;
 
@@ -69,6 +67,18 @@
     color: #175973;
 }
 
+.SecBB span{
+    font-size: 14pt;
+    width: 400px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-align: center;
+
+    margin-bottom: 20px;
+    color: #D0F2F2;
+}
 
 
 @media screen and (max-width: 1054px){
