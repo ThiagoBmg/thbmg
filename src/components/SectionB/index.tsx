@@ -12,6 +12,7 @@ export const SectionB = () =>{
                 <p> valores</p>
                 <h1 id="TextTest">FAZENDO A DIFERENÇA</h1>
                 <span>meu foco é dar o meu melhor e garantir experiência de mercado.</span>
+                <a href="#CareerCard"><button className="SectionBButton">Saber Mais</button></a>
             </div>
         </section>
     )
