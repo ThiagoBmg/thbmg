@@ -5,7 +5,7 @@
 *   @exemplo
 *   var teste = 'somente um teste'
 *   textLengthValider(teste, 3)
-*   output = som
+*   output = 'som...'
 */
 
 export const textLengthValider = ( text:string,  numberOfWords: number = 0 ) => (text.length > numberOfWords) ? text.slice(0,numberOfWords).concat('...') : text
