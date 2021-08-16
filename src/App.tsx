@@ -18,10 +18,10 @@ function App() {
       <Navbar/>
       <Section/>
       <Arrow/>
-      <History/>
-      <SectionB/>
       <TechnologiesCard/>
+      <SectionB/>
       <CareerCard/>
+      <History/>
       <Fotter/>
      {/*  {changeArrowTheme()} */}
     </div>

@@ -11,10 +11,10 @@
 
 /*     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
  */
-    -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 10s ease infinite;
-    -o-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
 
     display: flex;
     flex-wrap: wrap;
