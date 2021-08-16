@@ -14,8 +14,7 @@ body{
     justify-content: center;
     background-color: #f0f1f6;
     user-select: none;
-
-    overflow-x: hidden;
+/*     overflow-x: hidden; */
 }
 
 .App{

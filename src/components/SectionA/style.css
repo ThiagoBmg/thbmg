@@ -67,7 +67,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
    /*  background-color: #0f4747; */
-    color: #505050;
+   color: #002a44;
     
 }
 
@@ -78,12 +78,12 @@
     margin-bottom: 20px;
     
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.03em;
     
-    color: #012840;
+    color: #054a52;
 }
 
 /*  */
@@ -92,9 +92,10 @@
     flex-direction: column;
     
     width: calc(100% * 1.001 - 600px );
+    max-width: 1000px;
     min-width: 400px;
     height: auto;
-
+    border: solid 5px #1759732f;
     overflow: hidden;
     
     border-radius: 12px;
