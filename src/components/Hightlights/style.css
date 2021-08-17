@@ -1,6 +1,6 @@
 
 .HistorySections{
-    width: 95vw;
+    width: 96vw;
     height: auto;
 
     background: linear-gradient(4deg, #012840, #175973, #2999a6);
@@ -12,8 +12,15 @@
     -o-animation: AnimationName 5s ease infinite;
     animation: AnimationName 5s ease infinite;
 
+
+    /* background: rgb(23,89,115);
+    background: linear-gradient(171deg, rgba(23,89,115,1) 0%, rgba(35,130,148,1) 51%, rgba(126,217,217,1) 100%);   
+    background-attachment: fixed; */
+
     display: flex;
     flex-wrap: wrap;
+
+    border-radius: 5px;
 
     padding: 20px 0px;
 
@@ -48,7 +55,7 @@
 
 .HistoryCard{
     width: 300px;
-    height: 150px;
+    height: 100px;
     margin: 30px 20px;
    /*  background: chartreuse; */
     display: flex;
