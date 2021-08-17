@@ -1,4 +1,4 @@
-type Itechnologies = {
+export type Itechnologies = {
     name: string,
     experience: string
     url:string
@@ -20,7 +20,7 @@ export const technologies : Itechnologies[]= [{
     experience: 'Em um desafio, precisei desenvolver uma automação que válidava determinado cenário de um sistema utilizando Selenium (automação em navegadores) e Python.',
     url: 'https://img.icons8.com/color/96/000000/python--v1.png',
     level: 'intermediário'
-}/* ,{
+},{
     name: 'Power Apps',
     experience: 'Administrando o sistema Dynamics365, estou apto à realizar ajustes complexos em fluxos no Power Apps.',
     url: 'https://img.icons8.com/fluency/96/000000/microsoft-power-automate-2020.png',
@@ -36,7 +36,7 @@ export const technologies : Itechnologies[]= [{
     url: 'https://img.icons8.com/color/96/000000/office-365.png',
     level: 'intermediário'
 },{
-    name: 'Microsoft SQL Server',
+    name: 'SQL Server',
     experience: 'Desenvolvimento de scripts SQL e otimizando consultas existentes para melhorar a performance de execução',
     url: 'https://img.icons8.com/color/96/000000/microsoft-sql-server.png',
     level: 'intermediário'
@@ -50,5 +50,34 @@ export const technologies : Itechnologies[]= [{
     experience: 'Aplicações já desenvolvidas e orquestradas através de containers',
     url: 'https://img.icons8.com/color/96/000000/git.png',
     level: 'intermediário'
-} */]
+}]
+
+
+export const getTechnologies = (arr:Itechnologies[], lim:number = 0):[] =>{
     
+    var temp: Itechnologies[] = []
+    var response:any = []
+
+    function handler(value:Itechnologies,index:number){
+        /*  */
+        if(temp.length<lim){
+            temp.push(value)
+        }
+        else if(temp.length == lim){
+            response.push(temp)
+            temp = [value]
+        }
+        /*  */
+        if(index+1 === arr.length){
+            response.push(temp)
+        }
+    }
+    
+    arr.map((value,index)=>handler(value, index))
+
+    return response
+}
+
+
+export default getTechnologies
+//console.log(getTechnologies(technologies,5))

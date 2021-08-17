@@ -1,6 +1,6 @@
 /* aplicando transition uma unica vez nos componentes que são dinâmicos */
 
-.TechCard, .TechName, .TechExperience, .TechLevel, .TechImage, .TechPlus{ 
+.TechCard, .TechName, .TechExperience, .TechLevel, .TechImage, .TechPlus, .circle{ 
     transition: .5s ease-in-out;
 }
 
@@ -47,20 +47,35 @@
 /*     background-color: #012840e8; */
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
-
+   
     border: solid 2px #7ED9D9;
 
     display: flex;
     flex-direction: column;
 /*     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
  */
- 
     padding: 20px 25px;
-    margin: 20px;
-    
+    margin: 20px  20px 56px 20px;
+    /*  margin: 0px; */
     cursor: pointer;
 }
 
+/*  */
+#upFade{
+    transform: translateY(-400px);
+    opacity: 0;
+    filter: blur(50px);
+    transition: 1.5s ease-in-out;
+    margin: 0px;
+}
+
+#dowFade{
+    transform: translateY(0px);
+    opacity: 1;
+    filter: blur(0px);
+}
+
+/*  */
 .TechCard:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     /*  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
@@ -154,3 +169,33 @@
         opacity: 0.7;
     }
 }
+
+
+.TechFotter{
+    width: 100%;
+    height: 100px;
+  /*   background-color: #7ED9D9; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#activatedCircle{
+    background-color: #175973;
+}
+
+#desactivatedCircle{
+    background-color: #7ED9D9;
+}
+
+.circle{
+    cursor: pointer;
+    width: 90px;
+    height: 10px;
+/*     border-radius: 50%; */   
+    border-radius: 5px;
+    background-color: #7ED9D9;
+    margin: 0px 6px;
+}
+

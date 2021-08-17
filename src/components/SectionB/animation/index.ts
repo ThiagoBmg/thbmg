@@ -6,9 +6,15 @@ export const textAnimation = () => {
     interval = 3 * 1000  
 
     const changeText = () =>{
-        te!.innerText= phrases[init]
-        if(init<phrases.length -1) return init++ 
-        if(phrases.length>=init) return init = 0 
+        try{
+            te!.innerText= phrases[init]
+            if(init<phrases.length -1) return init++ 
+            if(phrases.length>=init) return init = 0 
+        }
+        catch{
+            console.error('error')
+        }
+        
     }
 
     return  setInterval(()=>changeText(),interval)
