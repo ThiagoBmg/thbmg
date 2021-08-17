@@ -181,6 +181,10 @@
     justify-content: center;
 }
 
+.TechFotter div:nth-child(1){
+    background-color: #175973;
+}
+
 #activatedCircle{
     background-color: #175973;
 }
