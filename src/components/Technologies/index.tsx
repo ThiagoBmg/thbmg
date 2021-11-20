@@ -33,6 +33,7 @@ export const TechnologiesCard = () =>{
             </div>
             {TechConfig[0].map(technologie=>TechCard(technologie))}
            <Fotter/>
+            <p className="TechP">Cursando Ciência da Computação na Universidade FEI (2021-2025), atuando no mercado de Software na área de desenvolvimento. Sou um profissional T-shaped, pois, além de ter autonomia e capacidade para desenvolver sistemas de alta complexidade, consigo atuar na parte de processos, tendo uma visão analítica e assertiva, sempre buscando conhecer mais sobre o negócio em questão.</p>
         </section>
     )
 }

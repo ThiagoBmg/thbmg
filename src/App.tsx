@@ -19,9 +19,9 @@ function App() {
       <Section/>
       <Arrow/>
       <TechnologiesCard/>
+      <SectionB/> 
       <History/>
       <CareerCard/> 
-      <SectionB/> 
       <Fotter/>
      {/*  {changeArrowTheme()} */}
     </div>
