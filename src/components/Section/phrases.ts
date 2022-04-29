@@ -1,3 +1,3 @@
-export const phrases = ['INOVAÇÃO', 'PROATIVIDADE', 'HONESTIDADE', 'EXCELÊNCIA']
+export const phrases = ['INOVAÇÃO', 'PROATIVIDADE', 'EXCELÊNCIA']
 
 export default phrases

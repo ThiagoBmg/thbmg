@@ -59,8 +59,13 @@ export const technologies : Itechnologies[]= [{
     level: levels[2]
 },{
     name: 'Linguagem C',
-    experience: 'Cursando Ciência da Computação, utilizo a linguagem C para realizar diversos trabalhos academicos',
+    experience: 'Cursando Ciência da Computação, utilizo a linguagem C para realizar diversos trabalhos acadêmicos',
     url: 'https://img.icons8.com/color/96/000000/c-programming.png',
+    level: levels[2]
+},{
+    name: 'Linguagem Java',
+    experience: 'Cursando Ciência da Computação, utilizo a linguagem java para realizar diversos trabalhos acadêmicos',
+    url: 'https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v1.png',
     level: levels[2]
 }]
 

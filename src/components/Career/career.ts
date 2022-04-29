@@ -12,9 +12,20 @@ export const works  = [
     image: 'https://www.pixeon.com/wp-content/themes/pixeon2018/img/new/logo-pixeon.png',
     site: 'https://www.pixeon.com',
     history: [{
+        activity: 'Analista Desenvolvedor',
+        startDate: 'ago. de 2021',
+        endDate: 'atualmente',
+        mainStack: ['Django', 'Python', 'SQL', 'Jinja2' ,'Rabbitmq', 'Celery', 'Azure Devops', 'Rancher'],
+        about:`
+        \Desenvolvimento de melhorias e suporte no produto Lumia (chatbot).
+        \Tecnologias:
+        \- Python 
+        \n- Django 
+        \- Sql`
+    },{
         activity: 'Analista de Eficiência Operacional Jr',
         startDate: 'nov. de 2020',
-        endDate: 'atualmente',
+        endDate: 'ago. de 2021',
         mainStack: ['Power Apps', 'Jira', 'Salesforce', 'Office365' ,'Python', 'SQL', 'Excel', 'JavaScript', 'Dynamics365'],
         about:`
         \nAdministração de acessos/funções dentro de sistemas corporativos.
@@ -23,7 +34,7 @@ export const works  = [
         \nCriação de consultas em Sql.
         \nMigração de dados entre sistemas.
         \nMapeamento de processos e aplicação de melhorias.`
-    }/* ,{
+    },{
         activity: 'Assistente de Eficiência Operacional',
         startDate: 'nov. de 2019',
         endDate: 'nov. de 2020',
@@ -35,7 +46,7 @@ export const works  = [
         \nDesenvolvimento web.
         \nCriação de consultas em Sql.
         \nMapeamento de processos e aplicação de melhorias.`
-    } */]
+    }]
 }/* ,{
     company: 'FEI' 
     ,image: '',

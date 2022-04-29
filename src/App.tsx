@@ -15,7 +15,7 @@ import { CareerCard,
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/*<Navbar/>*/}
       <Section/>
       <Arrow/>
       <TechnologiesCard/>

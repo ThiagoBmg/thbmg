@@ -7,7 +7,9 @@ export const SectionB = () =>{
 
     return(
         <section className="SectionBContainer">
-            <div className="SecBA"></div>
+            <div className="SecBA">
+                <img src="https://media-exp1.licdn.com/dms/image/C4E2DAQETjzTwYrZneA/profile-treasury-image-shrink_800_800/0/1619449394943?e=2147483647&v=beta&t=n-B_iNsLa-SmfgNeukqMmMvzqQTk3-GlUp7sXqO2lr8" alt="" />
+            </div>
             <div className="SecBB">
                 <p> valores</p>
                 <h1 id="TextTest">FAZENDO A DIFERENÇA</h1>

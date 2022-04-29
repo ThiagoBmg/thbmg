@@ -25,22 +25,20 @@
 
 /*  */
 .SectionA{
-    width: 590px;
+    width:550px;
     
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 
-    
-    
     padding: 10px 40px;
 }
 
 .SectionA h1{
     font-style: normal;
     font-weight: 600;
-    font-size: 55px;
-    line-height: 67px;
+    font-size: 45px;
+    line-height: 50px;
     color: #2999A6;
 }
 
@@ -54,7 +52,7 @@
     align-content: flex-start;
     /* justify-content: space-evenly; */
     /* background-color: rgb(21, 97, 163); */
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .sub_textos span{
@@ -79,6 +77,7 @@
     display: flex;
     max-width: 500px;
     align-items: center;
+    margin-top: 25px;
     margin-bottom: 20px;
     
     font-style: normal;
@@ -95,15 +94,15 @@
     display: flex;
     flex-direction: column;
     
-    width: calc(100% * .85 - 600px );
+    width: calc(100% * 1.05 - 600px );
     max-width: 1000px;
     min-width: 400px;
     height: auto;
     
-    border: solid 5px #66e0ff;
+    /* border: solid 2px #66e0ff; */
     overflow: hidden;
     
-    border-radius: 12px;
+    border-radius:30px;
 
     margin: 40px 0px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -119,7 +118,7 @@
 .HomeButton{
     width: 150px;
     height: 70px;
-    border-radius: 8px;
+    border-radius: 80px;
     background: #175973;
     border: none;
     color: #D0F2F2;
@@ -131,5 +130,4 @@
 
 .HomeButton:hover{
     box-shadow: #012840 0px 10px 30px -10px;
-    
 }
